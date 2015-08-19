@@ -17,3 +17,11 @@
 
 (directory-exists? "/Users/aborn/dpcode")
 
+(define (diff strA strB)
+  (let ([sizeA (string-length strA)]
+        [sizeB (string-length strB)])
+    (for ([i (if (> sizeA sizeB) strB strA)])
+      (display i))))
+
+(diff "fdaf" "fd")
+
