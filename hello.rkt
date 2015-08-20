@@ -36,3 +36,6 @@
 
 (diff "fd a中f 这是一个测试的字符串" "fd a中")
 
+;; 对列表的循环
+(for ([a (list "a" 1)])
+  (println a))
