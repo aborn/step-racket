@@ -45,4 +45,4 @@
 (fprintf (current-output-port)
          "\n ~s 是一个数字, ~s 是一个字符串\n"
          5
-           "(3 4)")
+         "(3 4)")
