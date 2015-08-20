@@ -43,5 +43,6 @@
            a))
 
 (fprintf (current-output-port)
-           "\n a as a string is ~s\n"
+         "\n ~s 是一个数字, ~s 是一个字符串\n"
+         5
            "(3 4)")
