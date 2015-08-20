@@ -38,4 +38,10 @@
 
 ;; 对列表的循环
 (for ([a (list "a" 1)])
-  (println a))
+  (fprintf (current-output-port)
+           "\n~s"
+           a))
+
+(fprintf (current-output-port)
+           "\n a as a string is ~s\n"
+           "(3 4)")
